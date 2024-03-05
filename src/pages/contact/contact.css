@@ -1,0 +1,98 @@
+#video_box{
+  width: 100%;
+  background-color: #36042a;
+  overflow: hidden;
+  padding: 50px;
+}
+.video_box_content img{
+  width: 101px;
+  height: 75px;
+  margin: 110px 609px 26px 609px;
+  object-fit: cover;
+}
+.video_box_content .content{
+  display: flex;
+  flex-direction: column;
+  row-gap: 46px;
+  text-align: center;
+}
+.video_box_content h2{
+  color: #FFF;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: normal;
+}
+.video_box_content h6{
+  color: #FFF;
+  font-size: 30px;
+  font-weight: 700;
+}
+.video_box_button{
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  column-gap: 10px;
+}
+.video_box_button .common_btn{
+  color: #FFFFFF;
+  background-color: #0C3543;
+}
+.video_box_button .common_btn:hover{
+  background-color: #FF9600;
+}
+.video_box_button .common_btn i{
+  padding-right: 15px;
+}
+.video_box_item{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 12px;
+}
+.video_item {
+  width: 424px;
+  height: 470px;
+  border-radius: 10px;
+  background: url(../images/video_box_thambrel.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 65px;
+}
+.video_item h2{
+  margin-top: 234px;
+  color: #FFF;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: normal;
+}
+.video_item h3{
+  margin-top: 19px;
+  color: #FFF;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: normal;
+}
+.video_item h6{
+  margin-top: 69px;
+  color: #A0A0A0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+}
+.video_item h6::after{
+  position: absolute;
+  content: "";
+  width: 245px;
+  height: 1px;
+  background-color: #717171;
+  top: -24px;
+  left: 0;
+}
+.video_icon_box{
+  width: 30px;
+  height: 30px;
+  background-color: #FFF;
+  border-radius: 50%;
+}

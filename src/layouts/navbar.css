@@ -1,0 +1,46 @@
+#navbar{
+  color: transparent;
+  padding: 20px 0;
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+}
+.nav_wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: black; */
+}
+.logo{
+  width: 20%;
+}
+.menu{
+  width: 60%;
+}
+.menu ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 50px;
+}
+.menu ul li a{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  font-family: "IBM Plex Sans", sans-serif;
+  transition: all linear 0.3s;
+}
+.menu ul li a:hover{
+  color: #ff9500
+}
+
+.menu ul li a i{
+  margin-left: 6px;
+}
+.nav_btn{
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+}

@@ -1,0 +1,39 @@
+#banner{
+  /* background: url(../images/banner.jpg); */
+  background-color: #173c5d;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 0 156px 0;
+  position: relative;
+  width: 100%;
+}
+.banner_content{
+  text-align: center;
+}
+.banner_content h1{
+  color: #fff;
+  width: 820px;
+  font-size: 72px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 auto;
+  line-height: normal;
+  padding-top: 291px;
+  padding-bottom: 55px;
+}
+.banner_btn{
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+}
+.banner_shafe{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+.banner_shafe img{
+  width: 100%;
+  display: block;
+}

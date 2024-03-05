@@ -1,0 +1,99 @@
+#Sports{
+  width: 100%;
+  background-color: #0C3543;
+  position: relative;
+}
+.sports_contant{
+  padding-top: 102px;
+  display: flex;
+  align-items: center;
+}
+.sports_contant .sub_heading{
+  color:#14B9F1;
+  font-size:30px;
+  font-weight: 400;
+  line-height: normal;
+  font-family: 'Yellowtail', cursive;
+}
+.sports_contant .heading{
+  margin-top: 5px;
+  color: #FFFFFF;
+  font-size: 54px;
+  font-weight:700 ;
+  line-height: normal;
+  width: 394px;
+}
+.sports_contant .paragraph p{
+  margin-left: 165px;
+  color: #FFFFFF;
+  width: 638px;
+  line-height: normal;
+}
+.sports_wrapper{
+  margin-top: 91px;
+  display: flex;
+  column-gap: 16px;
+  row-gap: 50px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+  text-align: center;
+}
+.sports_wrapper::after{
+  position:absolute;
+  content: "";
+  height: 2px;
+  width: 80px;
+  background-color: #FFFFFF;
+  left: 0;
+  top: -69px;
+}
+.sports_item{
+  width: 424px;
+  height: 510px;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  background-color: #0F4152;
+
+}
+.sports_item h2{
+  color: #FFF;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: normal;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+.sports_item h6{
+  color: #FFF;
+  font-size:18px ;
+  font-weight:400 ;
+  line-height: normal;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+.shape{
+  padding-bottom: 100px;
+  margin: 0 auto;
+}
+
+.shape shape{
+  font-size:160px;
+  font-weight:400;
+  color: #FFF;
+  line-height: normal;
+  font-family: 'Arizonia', cursive;
+}
+.sports_bottom_shape{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+.sports_bottom_shape img{
+  width: 100%;
+  display: block;
+}
